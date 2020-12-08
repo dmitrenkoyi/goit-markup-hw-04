@@ -272,19 +272,17 @@ width: 44px;
 height: 44px;
 color: var(--icons-color);
 border-radius: 50%;
+fill: currentColor;
 }
 .socials-item a:hover,
-.socials-item a:focus {
+.socials-item a:focus{
 background-color: var(--accent-color-blue);
+fill: #ffffff;
 }
 
 .socials-item svg{
 width: 20px;
 height: 20px;
-fill: var(--icons-color);
-}
-.socials-item svg:hover{
-fill: #ffffff
 }
 
 /* Постоянные клиенты */
